@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+int plates, glasses, knives, sum;
+plates = glasses = knives = 1;
+sum = plates + glasses + knives;
+
+cout << sum << endl;
+}
