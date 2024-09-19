@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int Ome = 5;
+float two = 2.4;
+double three = 5.12451;
+char four = "A";
+bool five = true;
+
+cout << Ome << endl;
+cout << two << endl;
+cout << three << endl;
+cout << four << endl;
+cout << five << endl;
+
+}
