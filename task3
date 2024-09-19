@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+for (int i = 0; i < 11; i++) {
+
+cout << i << endl;
+}
+int two = 0;
+int sum = 0;
+while (two < 100) {
+
+sum += two;
+two++;
+cout << two << endl;
+cout << sum << endl;
+}
+int three = 2;
+do {
+cout << three << endl;
+three += 2;
+} while (three <= 20);
+}
