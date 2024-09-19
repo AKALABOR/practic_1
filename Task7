@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+ 
+int waterk, foodk, water, food, waters, foods, sum;
+water = 10, food = 15, waterk = 6, foodk = 2, waters = waterk * water, foods = foodk * food;
+sum = foods + waters;
+
+cout << "Water " << water << " uan" << endl;
+cout << "Food " << food << " uan" << endl;
+cout << "Sum " << sum << " uan" << endl;
+ 
+}
