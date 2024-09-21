@@ -9,7 +9,7 @@ cout << i << endl;
 }
 int two = 0;
 int sum = 0;
-while (two < 100) {
+while (two <= 100) {
 
 sum += two;
 two++;
